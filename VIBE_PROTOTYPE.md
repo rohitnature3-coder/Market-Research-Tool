@@ -1,44 +1,57 @@
-# Market Research Tool Design Documentation
+# Comprehensive Vibe Prototype
 
-## Design System
-This section outlines the comprehensive design system for the Market Research Tool, including color palette, typography, and UI components.
-
-### Color Palette
-- **Primary Color:** #4A90E2  
-- **Secondary Color:** #50E3C2  
-- **Background Color:** #F5F7FA  
-- **Text Color:** #333333  
-
-### Typography
-- **Headers:** 24px, Bold, #333333  
-- **Body Text:** 16px, Regular, #666666  
-
-### UI Components
-- **Buttons:** Rounded corners, Shadow effect, Hover state
-- **Input Fields:** Underlined, Clear focus state
-
-## Wireframes
-Include wireframes that map out the layout and flow of the application. Key screens:
-- Landing Page
-- Search Results Page
-- Detailed View Page
-
-## Component Specifications
-Each UI component should be described in detail:
-- **Button:** Size, states (default, hover, active), icon usage.
-- **Input Field:** Placeholder text, validation messages.
-
-## User Flows
-Illustrate key user flows:
-1. User Registration  
-2. Conducting Market Research  
-3. Generating Reports  
-
-## Interaction Patterns
-Define common interaction patterns:
-- How users navigate between pages.
-- How actions are confirmed (e.g., submitting a form).
+## Overview
+This document outlines the comprehensive vibe prototype for the Market Research Tool, including all screens, design systems, user flows, interactions, and specifications.
 
 ---
 
-_Last updated: 2026-02-10 10:30:53 (UTC)_
+## Screens
+1. **Home Screen**  
+   - Overview of features and navigation options.
+2. **User Login/Signup Screen**  
+   - Form fields for email, password, and login/signup buttons.
+3. **Dashboard**  
+   - Summary of market analytics, user metrics, and quick links to reports.
+4. **Report Generation Screen**  
+   - Parameters for generating reports, selecting data metrics, and visualization options.
+5. **Settings Screen**  
+   - User preferences, account settings, and app configuration options.
+
+---
+
+## Design System
+- **Color Palette**: 
+  - Primary: #007bff  
+  - Secondary: #6c757d  
+  - Success: #28a745  
+  - Danger: #dc3545  
+  - Warning: #ffc107
+- **Typography**:
+  - Headings: 'Roboto', sans-serif
+  - Body: 'Open Sans', sans-serif
+- **Buttons**: Rounded corners, shadow effects, hover states defined.
+- **Icons**: Consistent style, used across all screens for clarity.
+
+---
+
+## User Flows
+1. **User Onboarding Flow**  
+   - Entry through login or signup  
+   - Guided tours for new users  
+2. **Report Creation Flow**  
+   - Select criteria -> Generate -> View report  
+   - Export/Share options available post generation.
+
+---
+
+## Interactions
+- **Hover effects** for buttons and links  
+- **Transitions** between screens for smoother user experience  
+- **Alerts/Notifications** for user actions (e.g., successful report generation)
+
+---
+
+## Specifications
+- Ensure cross-browser compatibility.
+- Responsive design across various devices (desktop, tablet, mobile).
+- Accessibility standards compliance (WCAG 2.1).
